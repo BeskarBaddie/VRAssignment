@@ -913,6 +913,7 @@ GameObject:
   - component: {fileID: 343446129}
   - component: {fileID: 343446131}
   - component: {fileID: 343446130}
+  - component: {fileID: 343446132}
   m_Layer: 0
   m_Name: Right Hand
   m_TagString: Untagged
@@ -1273,6 +1274,43 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!114 &343446132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343446123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05df704b6ce542cabfb1f7111a1f2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinchAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Pinch Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: edc95fdc-a7a3-49db-b7c5-70442afa2c20
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gripAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: d6516598-b12e-4ead-8efc-651632ca08d0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  handAnimator: {fileID: 1733762916}
 --- !u!1001 &370146565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2261,6 +2299,11 @@ PrefabInstance:
 --- !u!4 &488219596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+  m_PrefabInstance: {fileID: 488219595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &488219597 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 109434732388006827, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
   m_PrefabInstance: {fileID: 488219595}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &502699829
@@ -6822,6 +6865,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
   m_PrefabInstance: {fileID: 1733762914}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1733762916 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5686134208192617028, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+  m_PrefabInstance: {fileID: 1733762914}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1736020324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7308,6 +7356,7 @@ GameObject:
   - component: {fileID: 1930153256}
   - component: {fileID: 1930153258}
   - component: {fileID: 1930153257}
+  - component: {fileID: 1930153259}
   m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
@@ -7668,6 +7717,43 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!114 &1930153259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930153250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05df704b6ce542cabfb1f7111a1f2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinchAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Pinch Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e5dfd05c-1ee6-4583-82de-574a33a831f9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gripAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2a70dcad-b086-4692-bdbc-b304cbe89aea
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  handAnimator: {fileID: 488219597}
 --- !u!1001 &1934219474
 PrefabInstance:
   m_ObjectHideFlags: 0
