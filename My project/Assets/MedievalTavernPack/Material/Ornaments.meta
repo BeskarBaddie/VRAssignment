@@ -1,8 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:My project/Assets/MedievalTavernPack/Material/Ornaments.meta
 guid: 37b58e4e5cdbe8c4aa5b002a38b21114
 folderAsset: yes
 timeCreated: 1517338602
 licenseType: Store
+========
+guid: 64eed2c900b4acd49aa00ceae6ee1f39
+>>>>>>>> Stashed changes:My project/Assets/MedievalTavernPack/Scenes/demo_02 2.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
