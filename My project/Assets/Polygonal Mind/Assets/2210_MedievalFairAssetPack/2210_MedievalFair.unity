@@ -3101,7 +3101,7 @@ GameObject:
   - component: {fileID: 838086660}
   - component: {fileID: 838086659}
   m_Layer: 0
-  m_Name: Right Ray Interactor (1)
+  m_Name: Left Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
