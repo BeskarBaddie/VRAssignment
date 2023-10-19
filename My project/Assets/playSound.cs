@@ -13,9 +13,11 @@ public class playSound : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        source.Play();
+
+     source.volume = Mathf.Clamp01(collision.relativeVelocity.magnitude / 20);
+     source.Play();
         
     }
 
