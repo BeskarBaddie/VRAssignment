@@ -15,7 +15,11 @@ public class playSound : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        source.Play();
+
+        if (other.CompareTag("Mallet")){
+            source.Play();
+        }
+        
         
     }
 
