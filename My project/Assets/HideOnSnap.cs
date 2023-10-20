@@ -11,6 +11,9 @@ public class HideOnSnap : MonoBehaviour
     // Reference to the mesh renderer or other renderer component
     public Renderer objectRenderer;
 
+    // Public variable for specifying the tag in the Unity Inspector
+    public string requiredTag = "YourTagHere"; // Default value for the tag
+
     private void Start()
     {
         // Subscribe to the Socket Interactor's OnSelectEntered and OnSelectExited events
@@ -23,8 +26,12 @@ public class HideOnSnap : MonoBehaviour
 
     private void HandleSnap(XRBaseInteractable obj)
     {
-        // Hide the object when snapped
-        objectRenderer.enabled = false;
+        // Check if the colliding object has the required tag
+        if (obj.CompareTag(requiredTag))
+        {
+            // Hide the object when snapped
+            objectRenderer.enabled = false;
+        }
     }
 
     private void HandleUnsnap(XRBaseInteractable obj)

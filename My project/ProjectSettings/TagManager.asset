@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Mallet
+  - A3
+  - B3
+  - C4
+  - D4
+  - E4
+  - F3
+  - F4
+  - G3
   layers:
   - Default
   - TransparentFX
